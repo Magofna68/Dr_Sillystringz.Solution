@@ -12,9 +12,11 @@
 
   @Html.Label("Select Machine")
   @Html.DropDownList("MachineId")
+  @* @Html.CheckBoxFor(model => model.Machine.Name) *@
 
   <input type="submit" value="Save" />
 }
 
 <p>@Html.ActionLink("Back to Engineers", "Index")</p>
 <p>@Html.ActionLink("Add a Machine", "AddMachine", new {id = Model.EngineerId})</p>
+@* Issues around adding a Machine to an engineer using the Id *@
