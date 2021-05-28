@@ -13,7 +13,8 @@
 }
 @foreach (Engineer engineer in Model.OrderBy(d => d.Name))
 {
-  <li>@Html.ActionLink($"{engineer.Name}" + $" || {engineer.Specialty}", "Details", new {id = engineer.EngineerId})</li>
+  <li>@Html.ActionLink($"{engineer.Name}" + " - " +" - " + " " + $"{engineer.Specialty}", "Details", new {id =
+  engineer.EngineerId})</li>
 }
 <br>
 <p>@Html.ActionLink("Add new Engineer", "Create")</p>
