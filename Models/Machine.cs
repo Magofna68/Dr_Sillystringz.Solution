@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace Dr_Sillystringz.Models
+namespace Factory.Models
 {
   public class Machine
   {

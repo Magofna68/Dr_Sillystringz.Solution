@@ -1,7 +1,17 @@
-namespace ProjectName
+using
+
+namespace Factory.Models
 {
-  public class ClassName
+  public class Engineer
   {
+    public Engineer()
+    {
+      this.JoinEntities = new HashSet<EngineerMachine>();
+    }
+    public int EngineerId { get; set; }
+    public string Name { get; set; }
+    public string Specialty { get; set; }
+    public virtual ICollection<EngineerMachine> JoinEntities { get; set; }
 
   }
 }
