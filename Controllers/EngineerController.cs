@@ -91,6 +91,7 @@ namespace Factory.Controllers
       ViewBag.MachineId = new SelectList(_db.Machine, "MachineId", "Name", "Status");
       return View(thisEngineer);
     }
+    // Having issues surrounding accessing the engineerId -- Object reference not set to an instance of an object
 
     [HttpPost]
     public ActionResult AddMachine(Engineer engineer, int MachineId)
