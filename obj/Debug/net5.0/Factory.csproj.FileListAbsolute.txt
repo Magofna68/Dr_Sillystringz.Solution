@@ -31,7 +31,6 @@
 /Users/Admin/Desktop/Epicodus/week-11/Dr-Sillystringz.Solution/Factory/obj/Debug/net5.0/Factory.RazorCoreGenerate.cache
 /Users/Admin/Desktop/Epicodus/week-11/Dr-Sillystringz.Solution/Factory/obj/Debug/net5.0/Razor/Shared/_Layout.cshtml.g.cs
 /Users/Admin/Desktop/Epicodus/week-11/Dr-Sillystringz.Solution/Factory/obj/Debug/net5.0/Razor/Views/Home/Index.cshtml.g.cs
-/Users/Admin/Desktop/Epicodus/week-11/Dr-Sillystringz.Solution/Factory/obj/Debug/net5.0/Razor/Views/Home/Shared/_Layout.cshtml.g.cs
 /Users/Admin/Desktop/Epicodus/week-11/Dr-Sillystringz.Solution/Factory/obj/Debug/net5.0/Factory.RazorTargetAssemblyInfo.cache
 /Users/Admin/Desktop/Epicodus/week-11/Dr-Sillystringz.Solution/Factory/obj/Debug/net5.0/Factory.RazorTargetAssemblyInfo.cs
 /Users/Admin/Desktop/Epicodus/week-11/Dr-Sillystringz.Solution/Factory/obj/Debug/net5.0/Factory.Views.pdb
@@ -41,3 +40,15 @@
 /Users/Admin/Desktop/Epicodus/week-11/Dr-Sillystringz.Solution/Factory/obj/Debug/net5.0/Factory.pdb
 /Users/Admin/Desktop/Epicodus/week-11/Dr-Sillystringz.Solution/Factory/obj/Debug/net5.0/Factory.genruntimeconfig.cache
 /Users/Admin/Desktop/Epicodus/week-11/Dr-Sillystringz.Solution/Factory/bin/Debug/net5.0/appsettings.json
+/Users/Admin/Desktop/Epicodus/week-11/Dr-Sillystringz.Solution/Factory/obj/Debug/net5.0/Razor/Views/Engineer/AddMachine.cshtml.g.cs
+/Users/Admin/Desktop/Epicodus/week-11/Dr-Sillystringz.Solution/Factory/obj/Debug/net5.0/Razor/Views/Engineer/Create.cshtml.g.cs
+/Users/Admin/Desktop/Epicodus/week-11/Dr-Sillystringz.Solution/Factory/obj/Debug/net5.0/Razor/Views/Engineer/Delete.cshtml.g.cs
+/Users/Admin/Desktop/Epicodus/week-11/Dr-Sillystringz.Solution/Factory/obj/Debug/net5.0/Razor/Views/Engineer/Details.cshtml.g.cs
+/Users/Admin/Desktop/Epicodus/week-11/Dr-Sillystringz.Solution/Factory/obj/Debug/net5.0/Razor/Views/Engineer/Edit.cshtml.g.cs
+/Users/Admin/Desktop/Epicodus/week-11/Dr-Sillystringz.Solution/Factory/obj/Debug/net5.0/Razor/Views/Engineer/Index.cshtml.g.cs
+/Users/Admin/Desktop/Epicodus/week-11/Dr-Sillystringz.Solution/Factory/obj/Debug/net5.0/Razor/Views/Machine/Create.cshtml.g.cs
+/Users/Admin/Desktop/Epicodus/week-11/Dr-Sillystringz.Solution/Factory/obj/Debug/net5.0/Razor/Views/Machine/Delete.cshtml.g.cs
+/Users/Admin/Desktop/Epicodus/week-11/Dr-Sillystringz.Solution/Factory/obj/Debug/net5.0/Razor/Views/Machine/Details.cshtml.g.cs
+/Users/Admin/Desktop/Epicodus/week-11/Dr-Sillystringz.Solution/Factory/obj/Debug/net5.0/Razor/Views/Machine/Edit.cshtml.g.cs
+/Users/Admin/Desktop/Epicodus/week-11/Dr-Sillystringz.Solution/Factory/obj/Debug/net5.0/Razor/Views/Machine/Index.cshtml.g.cs
+/Users/Admin/Desktop/Epicodus/week-11/Dr-Sillystringz.Solution/Factory/obj/Debug/net5.0/Razor/Views/Shared/_Layout.cshtml.g.cs

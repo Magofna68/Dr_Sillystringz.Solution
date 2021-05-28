@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace Factory.Controllers
 {
-  public class EngineerController : Controllers
+  public class EngineerController : Controller
   {
     private readonly FactoryContext _db;
     public EngineerController(FactoryContext db)
@@ -28,11 +28,11 @@ namespace Factory.Controllers
     [HttpPost]
     public ActionResult Create(Engineer engineer, int MachineId)
     {
-      _db.Engineer.add(engineer);
+      _db.Engineer.Add(engineer);
       _db.SaveChanges();
       if (MachineId != 0)
       {
-        _db.EngineerMachine.Add(new EngineerMachine() { MachineId = MachineId, PatientId = patient.PatientId });
+        _db.EngineerMachine.Add(new EngineerMachine() { MachineId = MachineId, EngineerId = engineer.EngineerId });
       }
       _db.SaveChanges();
       return RedirectToAction("Index");
@@ -42,7 +42,7 @@ namespace Factory.Controllers
     {
       Engineer thisEngineer = _db.Engineer
       .Include(engineer => engineer.JoinEntities)
-      .ThenIncludes(join => join.Machine)
+      .ThenInclude(join => join.Machine)
       .FirstOrDefault(engineer => engineer.EngineerId == id);
       return View(thisEngineer);
     }
