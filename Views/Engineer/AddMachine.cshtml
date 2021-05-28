@@ -11,12 +11,13 @@
   @Html.HiddenFor(model => model.EngineerId)
 
   @Html.Label("Select Machine")
-  @Html.DropDownList("MachineId")
+  @Html.DropDownList("MachineId", null, "Select Machine")
   @* @Html.CheckBoxFor(model => model.Machine.Name) *@
 
   <input type="submit" value="Save" />
 }
 
+<p>@Html.ActionLink("Edit Engineer", "Edit")</p>
 <p>@Html.ActionLink("Back to Engineers", "Index")</p>
-<p>@Html.ActionLink("Add a Machine", "AddMachine", new {id = Model.EngineerId})</p>
+<p>@Html.ActionLink("Edit Machine", "Edit", "Machine")</p>
 @* Issues around adding a Machine to an engineer using the Id *@

@@ -87,11 +87,10 @@ namespace Factory.Controllers
 
     public ActionResult AddMachine(int id)
     {
-      var thisEngineer = _db.Engineer.FirstOrDefault(engineer => engineer.EngineerId == 0);
-      ViewBag.MachineId = new SelectList(_db.Machine, "MachineId", "Name", "Status");
+      var thisEngineer = _db.Engineer.FirstOrDefault(engineer => engineer.EngineerId == id);
+      ViewBag.MachineId = new SelectList(_db.Machine, "MachineId", "Name", "Type");
       return View(thisEngineer);
     }
-    // Having issues surrounding accessing the engineerId -- Object reference not set to an instance of an object
 
     [HttpPost]
     public ActionResult AddMachine(Engineer engineer, int MachineId)
