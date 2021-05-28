@@ -6,7 +6,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.EntityFrameworkCore;
 using ToDoList.Models;
 
-namespace Dr_Sillystringz
+namespace Factory
 {
   public class Startup
   {
@@ -25,7 +25,7 @@ namespace Dr_Sillystringz
       services.AddMvc();
 
       services.AddEntityFrameworkMySql()
-        .AddDbContext<Dr_SillystringzContext>(options => options
+        .AddDbContext<FactoryContext>(options => options
         .UseMySql(Configuration["ConnectionStrings:DefaultConnection"], ServerVersion.AutoDetect(Configuration["ConnectionStrings:DefaultConnection"])));
     }
 
