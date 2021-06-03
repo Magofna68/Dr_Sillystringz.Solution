@@ -12,14 +12,12 @@ _*This is my independent, week 11 project at Epicodus. This application utilizes
 2. [Node](https://nodejs.org/en/)
 3. A code editor like VS Code or Atom to view or edit the codebase.
 
-# API-Key?
-
 ### Installation
 
 ⚠️ *Note: To run this project locally you will need to have .NET Core. You can check if you have .NET Core by running dotnet --version in the command line. If you do not have .NET Core please find more information and download [here](https://dotnet.microsoft.com/download/dotnet)*
 
-* Clone this repository 'Dr_SillyStringz.Solution' to your Dekstop.
-* Navigate to the directory named 'Dr_SillyStringz.Solution' in the terminal 
+* Clone this repository 'Factory.Solution' to your Dekstop.
+* Navigate to the directory named 'Factory.Solution' in the terminal 
 * Type 'dotnet restore' in the terminal to download all dependencies 
 * Navigate back to the root directory and create a file titled 'appsettings.json'
 * Replace {YourFirstName_YourLastName} with the name of your database, and replace {YourPassword} with your password
